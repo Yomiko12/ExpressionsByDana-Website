@@ -1,0 +1,35 @@
+@keyframes fader{
+	0%{background-image:url("../PHOTOS/slideshow/1.jpg")}
+	9%{background-image:url("../PHOTOS/slideshow/2.jpg")}
+	18%{background-image:url("../PHOTOS/slideshow/3.jpg")}
+	27%{background-image:url("../PHOTOS/slideshow/4.jpg")}
+	36%{background-image:url("../PHOTOS/slideshow/5.jpg")}
+	45%{background-image:url("../PHOTOS/slideshow/6.jpg")}
+	54%{background-image:url("../PHOTOS/slideshow/7.jpg")}
+	63%{background-image:url("../PHOTOS/slideshow/8.jpg")}
+	72%{background-image:url("../PHOTOS/slideshow/9.jpg")}
+	81%{background-image:url("../PHOTOS/slideshow/10.jpg")}
+	91%{background-image:url("../PHOTOS/slideshow/11.jpg")}
+	to{background-image:url("../PHOTOS/slideshow/1.jpg")}
+}
+
+.slideshow{
+	min-width: 600px;
+	min-height: 400px;
+	background-color: white;
+	animation: fader 60s infinite;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	box-shadow: 5px 5px 10px gray;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+@media(max-width: 65rem){
+	.slideshow{
+		min-width: 380px;
+		min-height: 253px;
+		margin-right: 20px;
+	}
+}
