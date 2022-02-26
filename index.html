@@ -8,31 +8,39 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Expressions By Dana</title>
-	<link rel="icon" href="../ASSETS/icon.png">
-	<link rel="stylesheet" href="../STYLES/default.css">
-	<link rel="stylesheet" href="../STYLES/navbar.css">
-	<link rel="stylesheet" href="../STYLES/index.css">
-	<link rel="stylesheet" href="../STYLES/slideshow.css">
-	<link rel="stylesheet" href="../STYLES/form.css">
+	<link rel="icon" href="./favicon.ico">
+	<link rel="stylesheet" href="./STYLES/default.css">
+	<link rel="stylesheet" href="./STYLES/navbar.css">
+	<link rel="stylesheet" href="./STYLES/index.css">
+	<link rel="stylesheet" href="./STYLES/slideshow.css">
+	<link rel="stylesheet" href="./STYLES/form.css">
 	<script src="https://unpkg.com/vue@next"></script>
 </head>
 
-<!--Change Cake Smash to Cake Smash & One Year (1-Year)-->
-<!---->
-
 <body>
+	<link rel="prefetch" href="./PHOTOS/slideshow/1.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/2.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/3.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/4.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/5.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/6.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/7.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/8.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/9.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/10.jpg" />
+	<link rel="prefetch" href="./PHOTOS/slideshow/11.jpg" />
 
 	<div class="navbar" id="app">
-		<a :href="home"><img src="../ASSETS/Banner Logo Cropped.png" alt="Logo" class="logo"></a>
+		<a :href="home"><img src="./ASSETS/Banner Logo Cropped.png" alt="Logo" class="logo"></a>
 		<div class="options hide">
 			<a href="#home">Home</a>
 			<a href="#galleryscroll">Galleries</a>
 			<a href="#aboutscroll">About</a>
 			<a href="#contactscroll">Contact</a>
 		</div>
-		<button class="menu-button first-button" v-on:click="toggleDropdown()"><img src="../assets/list.svg" alt="Dropdown Menu"></button>
+		<button class="menu-button first-button" v-on:click="toggleDropdown()"><img src="./ASSETS/list.svg" alt="Dropdown Menu"></button>
 		<div class="dropdown" v-if="dropdownIsShown">
-			<button class="menu-button" v-on:click="toggleDropdown()"><img src="../ASSETS/list.svg" alt="Dropdown Menu"></button>
+			<button class="menu-button" v-on:click="toggleDropdown()"><img src="./ASSETS/list.svg" alt="Dropdown Menu"></button>
 			<a href="#home" v-on:click="toggleDropdown()">Home</a>
 			<a href="#galleryscroll" v-on:click="toggleDropdown()">Gallery</a>
 			<a href="#aboutscroll" v-on:click="toggleDropdown()">About</a>
@@ -55,60 +63,58 @@
 
 	
 			<div class="categories">
-				<a href="BabiesChildrenGallery.html" class="container">
-					<img src="../PHOTOS/babiesAndChildren/Cover Image.jpg" alt="" class="image">
+				<a href="./HTML/BabiesChildrenGallery.html" class="container">
+					<img src="./PHOTOS/babiesAndChildren/Cover Image.jpg" alt="" class="image">
 					<div class="overlay">
 						<div class="text">Babies & Children</div>
 					</div>
 				</a>
-				<a href="./CakeSmashGallery.html" class="container">
-					<img src="../PHOTOS/cakeSmashOneYear/Cover Image.jpg" alt="" class="image">
+				<a href="./HTML/CakeSmashGallery.html" class="container">
+					<img src="./PHOTOS/cakeSmashOneYear/Cover Image.jpg" alt="" class="image">
 					<div class="overlay">
 						<div class="oneyear">Cake Smash & One Year</div>
 					</div>
 				</a>
-				<a href="./FamilyGallery.html" class="container">
-					<img src="../PHOTOS/family/Cover Image 2.jpg" alt="" class="image">
+				<a href="./HTML/FamilyGallery.html" class="container">
+					<img src="./PHOTOS/family/Cover Image 2.jpg" alt="" class="image">
 					<div class="overlay">
 						<div class="text">Family</div>
 					</div>
 				</a>
-				<a href="./NewbornGallery.html" class="container">
-					<img src="../PHOTOS/newborn/Cover Image.jpg" alt="" class="image">
+				<a href="./HTML/NewbornGallery.html" class="container">
+					<img src="./PHOTOS/newborn/Cover Image.jpg" alt="" class="image">
 					<div class="overlay">
 						<div class="text">Newborn</div>
 					</div>
 				</a>
 
-				<a href="./MaternityGallery.html" class="container">
-					<img src="../PHOTOS/maternity/Cover Image.jpg" alt="" class="image">
+				<a href="./HTML/MaternityGallery.html" class="container">
+					<img src="./PHOTOS/maternity/Cover Image.jpg" alt="" class="image">
 					<div class="overlay">
 						<div class="text">Maternity</div>
 					</div>
 				</a>
 		
-				<a href="./CompositeGallery.html" class="container">
-					<img src="../PHOTOS/composite/Cover image.jpg" alt="" class="image">
+				<a href="./HTML/CompositeGallery.html" class="container">
+					<img src="./PHOTOS/composite/Cover image.jpg" alt="" class="image">
 					<div class="overlay">
 						<div class="text">Composite</div>
 					</div>
 				</a>
 		
-				<a href="./DanceSportsGallery.html" class="container">
-					<img src="../PHOTOS/danceSports/Cover Image.jpg" alt="" class="image">
+				<a href="./HTML/DanceSportsGallery.html" class="container">
+					<img src="./PHOTOS/danceSports/Cover Image.jpg" alt="" class="image">
 					<div class="overlay">
-						<div class="text">Dance & Sports</div>
+						<div class="text">Dance</div>
 					</div>
 				</a>
 
 		</div>
-
 	</div>
-
 
 	<div class="about" id="about">
 		<div class="aboutscroll" id="aboutscroll"></div>
-		<img src="../ASSETS/Dana Headshot Cropped.jpg" alt="">
+		<img src="./ASSETS/Dana Headshot Cropped.jpg" alt="">
 		<p>
 			I am a mom of two wonderful kids,
 			and I know first hand how quickly our children grow and change! <br>
@@ -117,15 +123,18 @@
 			Memories fade, but photos will keep those moments alive every
 			time you see them. <br>
 			A woman’s glow during <b>pregnancy</b>, when her ever changing body is no longer just her own;<br>
-			From those tiny toes to glowing eyes, a <b>newborn</b> has a sweetness like no other; <br> 
+			From those tiny toes to velvety soft skin, a <b>newborn</b> has a sweetness like no other; <br> 
 			Those first smiles and toothless grins of a chubby little <b>baby</b> will melt your heart; <br>
 			The playfulness of a <b>toddler</b>, curiosity of a <b>child</b>, the know-all of a <b>teenager</b>; <br>
 			Wherever your kids are in life, let’s remember them just the way they are today! <br> <br>
 			
 			I have been a photographer for over 10 years, serving the Winnipeg and surrounding area. <br> I have a home studio where I love creating beautiful sets, and I also love exploring our local surroundings to find unique backgrounds for my sessions. <br>
 			My  studio offers a variety of options - from maternity, newborn, baby and family.  I adore fun loving families that want timeless images to display in their homes. <br> My sessions are casual, light hearted and playful.
-			I love being creative with my sessions and adding elements into my shoots to help create a story. <br> I also love COLOUR! I want my images to stand out and be noticed in the natural way that our eyes see colour around us. <br>
-			I will work with you to plan and deliver a great experience and images that you are sure to treasure. <br> I recognize that each family is unique and I want your family dynamic and personality to shine through.
+			I love being creative with my sessions and adding elements into my shoots to help create a story. <br> I also love COLOUR! I want my images to stand out and be noticed in the natural way that our eyes see colour around us. <br><br>
+			I recognize that each family is unique and I want your family dynamic and personality to shine through. <br> 
+			I offer <b>full</b> and <b>mini</b> sessions and provide you with a large number of <b>digital images</b> from your session.</br>
+
+			I will work with you to plan and deliver a great experience and images that you are sure to treasure.
 		</p>
 	</div>
 
@@ -140,12 +149,12 @@
 			<div class="socialmedia">
 
 				<a href="https://www.facebook.com/people/Expressions-By-Dana-Photography-and-Design/100057273049087/" class="facebook">
-					<img href="" src="../ASSETS/facebook.svg" alt="icon missing">
+					<img href="" src="./ASSETS/facebook.svg" alt="icon missing">
 					<p>Facebook</p>
 				</a>
 
 				<a href="mailto:photos@expressionsbydana.com" class="email">
-					<img src="../ASSETS/mail.svg" alt="icon missing">
+					<img src="./ASSETS/mail.svg" alt="icon missing">
 					<p>Email</p>
 				</a>
 
@@ -184,6 +193,6 @@
 	<div class="footer"></div>
 
 
-	<script src="../JS/app.js"></script>
+	<script src="./JS/app.js"></script>
 </body>
 </html>
