@@ -3,7 +3,7 @@
 <head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap" rel="stylesheet"> 
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +18,18 @@
 </head>
 
 <body>
-	<link rel="prefetch" href="./PHOTOS/slideshow/1.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/2.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/3.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/4.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/5.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/6.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/7.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/8.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/9.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/10.jpg" />
-	<link rel="prefetch" href="./PHOTOS/slideshow/11.jpg" />
+
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/1.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/2.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/3.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/4.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/5.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/6.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/7.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/8.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/9.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/10.jpg">
+	<link rel="preload" as="image" href="./PHOTOS/slideshow/11.jpg">
 
 	<div class="navbar" id="app">
 		<a :href="home"><img src="./ASSETS/Banner Logo Cropped.png" alt="Logo" class="logo"></a>
@@ -89,7 +90,7 @@
 				</a>
 
 				<a href="./HTML/MaternityGallery.html" class="container">
-					<img src="./PHOTOS/maternity/Cover Image.jpg" alt="" class="image">
+					<img src="./PHOTOS/maternity/Cover image.jpg" alt="" class="image">
 					<div class="overlay">
 						<div class="text">Maternity</div>
 					</div>

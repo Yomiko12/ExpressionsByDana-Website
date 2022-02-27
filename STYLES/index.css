@@ -14,7 +14,7 @@ body {animation: fadeInAnimation ease 3s}
 }
 
 .quote{
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	transition: .6s ease;
 	white-space: pre-wrap;
 	text-align: center;
@@ -33,7 +33,7 @@ body {animation: fadeInAnimation ease 3s}
 }
 
 .author{
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	color: #64c4bc;
 	margin: 0 0 0 0;
 }
@@ -49,7 +49,7 @@ body {animation: fadeInAnimation ease 3s}
 
 .gallerytitle{
 	text-align: center;
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	color: gray;
 	font-size: 300%;
 	margin: 0px;
@@ -157,7 +157,7 @@ body {animation: fadeInAnimation ease 3s}
 }
 
 .about p{
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	color: gray;
 	font-size: 120%;
 	padding-bottom: 10px;
@@ -165,7 +165,7 @@ body {animation: fadeInAnimation ease 3s}
 }
 
 .sessions p{
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	font-size: 120%;
 	text-align: center;
 }
@@ -233,6 +233,10 @@ body {animation: fadeInAnimation ease 3s}
 		font-size: 220%;
 	}
 
+	.oneyear{
+		font-size: 174%;
+	}
+
 	.container:hover .text{
 		font-size: 240%;
 	}
@@ -267,6 +271,9 @@ body {animation: fadeInAnimation ease 3s}
 		font-size: 150%;
 	}
 	.container:hover .oneyear{
+		font-size: 100%;
+	}
+	.oneyear{
 		font-size: 100%;
 	}
 

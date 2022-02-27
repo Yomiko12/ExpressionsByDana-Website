@@ -1,15 +1,37 @@
 @keyframes fader{
 	0%{background-image:url("../PHOTOS/slideshow/1.jpg")}
+	8.99%{background-image:url("../PHOTOS/slideshow/1.jpg")}
+
 	9%{background-image:url("../PHOTOS/slideshow/2.jpg")}
+	17.99%{background-image:url("../PHOTOS/slideshow/2.jpg")}
+
 	18%{background-image:url("../PHOTOS/slideshow/3.jpg")}
+	26.99%{background-image:url("../PHOTOS/slideshow/3.jpg")}
+
 	27%{background-image:url("../PHOTOS/slideshow/4.jpg")}
+	35.99%{background-image:url("../PHOTOS/slideshow/4.jpg")}
+
 	36%{background-image:url("../PHOTOS/slideshow/5.jpg")}
+	44.99%{background-image:url("../PHOTOS/slideshow/5.jpg")}
+
 	45%{background-image:url("../PHOTOS/slideshow/6.jpg")}
+	53.99%{background-image:url("../PHOTOS/slideshow/6.jpg")}
+
 	54%{background-image:url("../PHOTOS/slideshow/7.jpg")}
+	62.99%{background-image:url("../PHOTOS/slideshow/7.jpg")}
+
 	63%{background-image:url("../PHOTOS/slideshow/8.jpg")}
+	71.99%{background-image:url("../PHOTOS/slideshow/8.jpg")}
+
 	72%{background-image:url("../PHOTOS/slideshow/9.jpg")}
+	80.99%{background-image:url("../PHOTOS/slideshow/9.jpg")}
+
 	81%{background-image:url("../PHOTOS/slideshow/10.jpg")}
+	90.99%{background-image:url("../PHOTOS/slideshow/10.jpg")}
+
 	91%{background-image:url("../PHOTOS/slideshow/11.jpg")}
+	99.99%{background-image:url("../PHOTOS/slideshow/11.jpg")}
+
 	to{background-image:url("../PHOTOS/slideshow/1.jpg")}
 }
 

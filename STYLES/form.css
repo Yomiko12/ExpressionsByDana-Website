@@ -6,7 +6,7 @@
 }
 .contacttitle{
 	text-align: center;
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	font-size: 300%;
 	color: gray;
 	margin: 0px;
@@ -28,7 +28,7 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	text-decoration: none;
 	color: black;
 	font-size: 300%;
@@ -40,7 +40,7 @@
 }
 
 .contactform{
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	font-size: 120%;
 	display: flex;
 	flex-direction: column;
@@ -72,7 +72,7 @@
 	border: none;
 	outline: none;
 	padding: 10px;
-	font-family: Aleygra;
+	font-family: "Alegreya", sans-serif;
 	font-size: 120%;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px gray;
