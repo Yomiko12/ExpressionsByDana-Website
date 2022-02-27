@@ -16,7 +16,6 @@
 .navbar .options a{
 	transition: .3s ease;
 	text-decoration: none;
-	font-family: "Alegreya", sans-serif;
 	color: gray;
 	font-size: 1.6rem;
 	margin-right: 120px;
@@ -59,7 +58,7 @@
 .navbar .dropdown a{
 	text-decoration: none;
 	color: black;
-	font-family: "Alegreya", sans-serif;
+	font-family: "Alegreya", serif;
 	font-size: 3rem;
 	margin: 20px;
 }
